@@ -29,3 +29,7 @@ docker run --name <a_container_name> -p 8080:8080 <an_image_name>
 ## access to the server
 
 go to: http://localhost:8080
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
