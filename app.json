@@ -1,0 +1,9 @@
+{
+  "name": "bdd-convert",
+  "keywords": [
+    "python",
+    "api"
+  ],
+  "repository": "https://github.com/honozon/bdd-convert",
+  "stack": "container"
+}
