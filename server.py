@@ -6,6 +6,7 @@ Created on Wed May 13 16:52:08 2020
 """
     
 import pandas as pd 
+import os
 
 def crea_bdd_iltass(file1, file2, output):
     df1 = pd.read_excel(file1)
@@ -21,6 +22,7 @@ def crea_bdd_iltass(file1, file2, output):
     else :
         print('La somme des sessions est beaucoup trop grande, elle vaut :' +str(diff))
 
+#website 
 from flask import Flask  
 from flask import render_template
 from flask import request
